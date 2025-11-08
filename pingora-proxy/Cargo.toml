@@ -1,0 +1,11 @@
+[package]
+name = "pingora-proxy-min"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pingora-core = "0.6"        # Server + Result + HttpPeer path
+pingora-proxy = "0.6"       # Proxy APIs (ProxyHttp, Session, http_proxy_service)
+async-trait = "0.1"
+env_logger  = "0.10"
+log         = "0.4"
